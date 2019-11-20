@@ -7,17 +7,18 @@ class Timer extends Component {
     color: '#'+Math.floor(Math.random()*16777215).toString(16)
   }
 
-  // add your code here
+  componentDidMount(){
 
+  }
 
+  componentWillUnmount(){
 
+  }
 
-
-
-
+  
   render() {
 
-    const { time, color, className } = this.state
+    const { time, color } = this.state
     return (
       <section className="Timer" style={{background: color}}>
 
